@@ -1,0 +1,128 @@
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f5f7fa; /* light grey background */
+}
+
+.login-box {
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  width: 350px;
+  text-align: center;
+  color: #333;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+.avatar {
+  font-size: 40px;
+  background: #e0e0e0;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h2 {
+  margin: 20px 0;
+  color: #1a73e8;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  background: #f1f1f1;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.input-group .icon {
+  margin-right: 10px;
+}
+
+.input-group input {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: #333;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  margin-bottom: 15px;
+}
+
+.options a {
+  color: #1a73e8;
+  text-decoration: none;
+}
+
+.captcha-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+  background: #f1f1f1;
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+.captcha {
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: 3px;
+  color: #e91e63;
+}
+.captcha-box button {
+  background: none;
+  border: none;
+  color: #1a73e8;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 12px;
+  background: #1a73e8;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  margin-top: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.login-btn:hover {
+  background: #0c5ac0;
+}
+
+.social-login {
+  margin-top: 20px;
+}
+.social-btn {
+  width: 100%;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+}
+.sm1 {
+  background: #3b5998; /* Facebook-like */
+  color: white;
+}
+.sm2 {
+  background: #00acee; /* Twitter-like */
+  color: white;
+}
